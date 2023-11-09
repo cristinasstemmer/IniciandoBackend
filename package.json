@@ -1,18 +1,18 @@
 {
-  "name": "dia-08.11",
+  "name": "dia-07.11",
   "version": "1.0.0",
-  "description": "",
-  "main": "farmaciaindex.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsc && node ./build/farmaciaindex"
+    "start": "npx tsc && node ./build/indexbiblio.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/readline-sync": "^1.4.7"
-  },
+  "description": "",
   "dependencies": {
     "mariadb": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.7"
   }
 }
